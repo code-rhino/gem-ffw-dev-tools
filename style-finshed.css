@@ -1,0 +1,52 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Enhanced font for better readability */
+}
+
+header {
+    background-color: #0056b3; /* Darker shade for better contrast */
+    color: #ffffff;
+    padding: 20px 10%;
+    box-sizing: border-box;
+}
+
+header #store-name {
+    margin: 0;
+    font-size: 24px; /* Increased font size for better visibility */
+}
+
+.navigation {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navigation li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navigation a {
+    color: #ffcc00; /* Changed link color for better readability */
+    text-decoration: none;
+    font-weight: bold; /* Making the font bold for better visibility */
+}
+
+.featured-products {
+    padding: 20px 10%;
+    background-color: #f8f9fa; /* Added a light background color for the section to distinguish it from product items */
+}
+
+.product-item {
+    border: 2px solid #007bff; /* Made border more visible */
+    padding: 15px; /* Increased padding for better spacing */
+    margin-top: 20px; /* Ensured consistent spacing between products */
+    background-color: #ffffff; /* Set a solid background color for better distinction from the section background */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Added a subtle shadow for depth */
+}
+
+footer {
+    background-color: #0056b3; /* Adjusted to match the header's darker shade */
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0; /* Increased padding for better spacing */
+    margin-top: 40px; /* Increased margin from the products section for clearer separation */
+}

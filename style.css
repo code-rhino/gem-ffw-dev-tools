@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 20px 10%;
+}
+
+header #store-name {
+    margin: 0;
+}
+
+.navigation {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navigation li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navigation a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.featured-products {
+    padding: 20px 10%;
+}
+
+.product-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #007bff;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
